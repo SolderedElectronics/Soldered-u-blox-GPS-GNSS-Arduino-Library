@@ -1,17 +1,162 @@
-##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
-##################################################
+#######################################
+# Syntax Coloring Map For Soldered-GNSS
+#######################################
 
-##################################################
+#######################################
 # Datatypes (KEYWORD1)
-##################################################
+#######################################
 
-##################################################
+Soldered_GNSS	KEYWORD1
+SFE_UBLOX_GNSS	KEYWORD1
+ubxPacket	KEYWORD1
+geofenceState	KEYWORD1
+
+UBX_CFG_PRT_data_t	KEYWORD1
+UBX_CFG_RATE_data_t	KEYWORD1
+UBX_CFG_TP5_data_t	KEYWORD1
+UBX_CFG_TMODE3_data_t	KEYWORD1
+
+UBX_NAV_POSLLH_data_t	KEYWORD1
+UBX_NAV_STATUS_data_t	KEYWORD1
+UBX_NAV_DOP_data_t	KEYWORD1
+UBX_NAV_PVT_data_t	KEYWORD1
+UBX_NAV_VELNED_data_t	KEYWORD1
+UBX_NAV_HPPOSLLH_data_t	KEYWORD1
+UBX_NAV_TIMEUTC_data_t	KEYWORD1
+UBX_NAV_CLOCK_data_t	KEYWORD1
+UBX_NAV_SAT_data_t	KEYWORD1
+UBX_NAV_SVIN_data_t	KEYWORD1
+UBX_NAV_RELPOSNED_data_t	KEYWORD1
+
+UBX_RXM_RAWX_data_t	KEYWORD1
+UBX_RXM_SFRBX_data_t	KEYWORD1
+
+UBX_ESF_ALG_data_t	KEYWORD1
+UBX_ESF_INS_data_t	KEYWORD1
+UBX_ESF_MEAS_data_t	KEYWORD1
+UBX_ESF_STATUS_data_t	KEYWORD1
+
+NMEA_GGA_data_t	KEYWORD1
+NMEA_VTG_data_t	KEYWORD1
+NMEA_RMC_data_t	KEYWORD1
+NMEA_ZDA_data_t	KEYWORD1
+
+#######################################
 # Methods and Functions (KEYWORD2)
-##################################################
+#######################################
 
 begin	KEYWORD2
+end	KEYWORD2
+checkUblox	KEYWORD2
+checkCallbacks	KEYWORD2
+enableDebugging	KEYWORD2
+disableDebugging	KEYWORD2
+setNMEAOutputPort	KEYWORD2
+setI2COutput	KEYWORD2
+setSerialRate	KEYWORD2
+saveConfiguration	KEYWORD2
+saveConfigSelective	KEYWORD2
+factoryDefault	KEYWORD2
+hardReset	KEYWORD2
+softwareResetGNSSOnly	KEYWORD2
 
-##################################################
+getLatitude	KEYWORD2
+getLongitude	KEYWORD2
+getAltitude	KEYWORD2
+getAltitudeMSL	KEYWORD2
+getSIV	KEYWORD2
+getFixType	KEYWORD2
+getCarrierSolutionType	KEYWORD2
+getHeading	KEYWORD2
+getPDOP	KEYWORD2
+getHorizontalAccuracy	KEYWORD2
+getVerticalAccuracy	KEYWORD2
+
+getYear	KEYWORD2
+getMonth	KEYWORD2
+getDay	KEYWORD2
+getHour	KEYWORD2
+getMinute	KEYWORD2
+getSecond	KEYWORD2
+getMillisecond	KEYWORD2
+getNanosecond	KEYWORD2
+getDateValid	KEYWORD2
+getTimeValid	KEYWORD2
+getTimeFullyResolved	KEYWORD2
+getGnssFixOk	KEYWORD2
+
+getGroundSpeed	KEYWORD2
+getNedNorthVel	KEYWORD2
+getNedEastVel	KEYWORD2
+getNedDownVel	KEYWORD2
+getVehicleHeading	KEYWORD2
+getMotionHeading	KEYWORD2
+getHeadingAcc	KEYWORD2
+getSpeedAccuracy	KEYWORD2
+
+getHighResLatitude	KEYWORD2
+getHighResLatitudeHp	KEYWORD2
+getHighResLongitude	KEYWORD2
+getHighResLongitudeHp	KEYWORD2
+getElipsoid	KEYWORD2
+getElipsoidHp	KEYWORD2
+getMeanSeaLevel	KEYWORD2
+getMeanSeaLevelHp	KEYWORD2
+getHorizontalAccuracyEstimateHp	KEYWORD2
+getVerticalAccuracyEstimateHp	KEYWORD2
+
+setNavigationFrequency	KEYWORD2
+getNavigationFrequency	KEYWORD2
+setMeasurementRate	KEYWORD2
+getMeasurementRate	KEYWORD2
+setNavigationRate	KEYWORD2
+getNavigationRate	KEYWORD2
+
+setAutoPVT	KEYWORD2
+getAutoPVT	KEYWORD2
+setAutoNAVSAT	KEYWORD2
+getAutoNAVSAT	KEYWORD2
+
+setPortInput	KEYWORD2
+setPortOutput	KEYWORD2
+setUART1Output	KEYWORD2
+setUART2Output	KEYWORD2
+setUSBOutput	KEYWORD2
+setSPIOutput	KEYWORD2
+
+setGeofenceState	KEYWORD2
+clearGeofences	KEYWORD2
+addGeofence	KEYWORD2
+getGeofenceState	KEYWORD2
+
+enableRTCMmessage	KEYWORD2
+disableRTCMmessage	KEYWORD2
+getSurveyStatus	KEYWORD2
+enableSurveyMode	KEYWORD2
+disableSurveyMode	KEYWORD2
+
+pushRawData	KEYWORD2
+setRTCMoutput	KEYWORD2
+
+#######################################
 # Constants (LITERAL1)
-##################################################
+#######################################
+
+SFE_UBLOX_STATUS_SUCCESS	LITERAL1
+SFE_UBLOX_STATUS_FAIL	LITERAL1
+SFE_UBLOX_STATUS_CRC_FAIL	LITERAL1
+SFE_UBLOX_STATUS_TIMEOUT	LITERAL1
+SFE_UBLOX_STATUS_COMMAND_NACK	LITERAL1
+SFE_UBLOX_STATUS_OUT_OF_RANGE	LITERAL1
+SFE_UBLOX_STATUS_INVALID_ARG	LITERAL1
+SFE_UBLOX_STATUS_DATA_SENT	LITERAL1
+SFE_UBLOX_STATUS_DATA_RECEIVED	LITERAL1
+SFE_UBLOX_STATUS_I2C_COMM_FAILURE	LITERAL1
+
+COM_TYPE_UBX	LITERAL1
+COM_TYPE_NMEA	LITERAL1
+COM_TYPE_RTCM3	LITERAL1
+
+VAL_CFG_SUBSEC_IOPORT	LITERAL1
+VAL_CFG_SUBSEC_MSGCONF	LITERAL1
+VAL_CFG_SUBSEC_NAVCONF	LITERAL1
