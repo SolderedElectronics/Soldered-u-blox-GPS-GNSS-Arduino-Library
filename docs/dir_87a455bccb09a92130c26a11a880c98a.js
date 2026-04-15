@@ -1,4 +1,4 @@
 var dir_87a455bccb09a92130c26a11a880c98a =
 [
-    [ "Generic-easyC", "dir_3db0dda00e9f66085ea9403aa7e09fb8.html", "dir_3db0dda00e9f66085ea9403aa7e09fb8" ]
+    [ "u-blox", "dir_a389aab3a6fffd37f5c680fe8f06143d.html", "dir_a389aab3a6fffd37f5c680fe8f06143d" ]
 ];

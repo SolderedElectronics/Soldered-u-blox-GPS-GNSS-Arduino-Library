@@ -1,0 +1,26 @@
+var struct_u_b_x___m_o_n___h_w__data__t =
+[
+    [ "agcCnt", "struct_u_b_x___m_o_n___h_w__data__t.html#a9684df825fc4f5d6dc5aa887608d4cea", null ],
+    [ "all", "struct_u_b_x___m_o_n___h_w__data__t.html#acc0b115056a98cccd945bf6d3e5375e7", null ],
+    [ "aPower", "struct_u_b_x___m_o_n___h_w__data__t.html#aa925881106f5b49fd75a898ca3c92f9d", null ],
+    [ "aStatus", "struct_u_b_x___m_o_n___h_w__data__t.html#abc71e96d7601ef1240babe972c397b45", null ],
+    [ "bits", "struct_u_b_x___m_o_n___h_w__data__t.html#a8bded013ea743a96725b58003d9d29bb", null ],
+    [ "flags", "struct_u_b_x___m_o_n___h_w__data__t.html#ae09a4d75e472cfccb5d9acb0caaa9392", null ],
+    [ "jamInd", "struct_u_b_x___m_o_n___h_w__data__t.html#a0d2cf2de04c8f9fc5f3cad56e5af43f7", null ],
+    [ "jammingState", "struct_u_b_x___m_o_n___h_w__data__t.html#ab510b09560ea816b3caeb47b38ff61e3", null ],
+    [ "noisePerMS", "struct_u_b_x___m_o_n___h_w__data__t.html#a9425aabb6ec8e5a7c371141d7b16b388", null ],
+    [ "pinBank", "struct_u_b_x___m_o_n___h_w__data__t.html#a504ab3139391f0a8cc8205729ddc8a2b", null ],
+    [ "pinDir", "struct_u_b_x___m_o_n___h_w__data__t.html#aaf37b5035c4c5317822b049096b7dd17", null ],
+    [ "pinIrq", "struct_u_b_x___m_o_n___h_w__data__t.html#a4dea3a89e92bd39afe8886efddcfe2cb", null ],
+    [ "pinSel", "struct_u_b_x___m_o_n___h_w__data__t.html#a0d8593632a37fe7768c033be47f08a50", null ],
+    [ "pinVal", "struct_u_b_x___m_o_n___h_w__data__t.html#a5a36eea9e94895137e5b13493a7d85f4", null ],
+    [ "pullH", "struct_u_b_x___m_o_n___h_w__data__t.html#a4db21cd1a81a6ca9f1656a08bbcbfcd6", null ],
+    [ "pullL", "struct_u_b_x___m_o_n___h_w__data__t.html#ac318ca10ef3bf3866f5c7961251462b0", null ],
+    [ "reserved1", "struct_u_b_x___m_o_n___h_w__data__t.html#aa2179ecc54b83bc9bd5a07c0d8bc48e7", null ],
+    [ "reserved2", "struct_u_b_x___m_o_n___h_w__data__t.html#a65f292e41d2bb1923fd044e4f78965e2", null ],
+    [ "rtcCalib", "struct_u_b_x___m_o_n___h_w__data__t.html#ae2fbfc80fb61634ad8990ef06815660c", null ],
+    [ "safeBoot", "struct_u_b_x___m_o_n___h_w__data__t.html#a8df1a3eb8c3813bffe89db0548260b9a", null ],
+    [ "usedMask", "struct_u_b_x___m_o_n___h_w__data__t.html#a88efc7ddd52a51fae0bd7c68390b42d0", null ],
+    [ "VP", "struct_u_b_x___m_o_n___h_w__data__t.html#a948636addec95f2045c867fec3f7e2e5", null ],
+    [ "xtalAbsent", "struct_u_b_x___m_o_n___h_w__data__t.html#a34879acc025a4e21e9c33aef02b61c7d", null ]
+];

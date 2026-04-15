@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['library_0',['Soldered u-blox GPS GNSS Arduino library',['../index.html',1,'']]],
+  ['license_1',['Open-source license',['../index.html#autotoc_md7',1,'']]]
 ];
