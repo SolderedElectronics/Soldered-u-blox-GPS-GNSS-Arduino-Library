@@ -1,14 +1,19 @@
-# NAZIV PROIZVODA Arduino library
+# Soldered u-blox GPS GNSS Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
-[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml)
-[![ATtiny Firmware Compile Test](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/attiny_test.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/attiny_test.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/arduino_lint.yml)
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/SKU)                      |
+|                      [GPS GNSS Breakout NEO-M9N-OOB Qwiic](https://www.solde.red/333378)                      |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
+| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| :------------------------------------------------------------------------------------: |
+|                      [GPS GNSS Breakout ZED-F9P-05B](https://www.solde.red/333381)     |
+
+The u-blox NEO-M9N and ZED-F9P are advanced GNSS (Global Navigation Satellite System) receiver modules designed to provide reliable positioning and navigation data. They support multiple satellite constellations such as GPS, Galileo, GLONASS, and BeiDou, allowing them to maintain accurate positioning even in challenging environments like urban areas or partial signal obstruction.
+
+Our breakout board provides ease of use with quick access to all supported protocols (UART, SPI and I2C) while also comming with a plug-and-play Qwiic connector.
 
 ### Repository Contents
 
@@ -18,11 +23,11 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Hardware design
 
-You can find hardware design for this board in _NAZIV PROIZVODA_ hardware repository.
+You can find hardware design for this board in the GPS GNSS Breakout NEO-M9N-00B and  GPS GNSS Breakout ZED-F9P hardware repositories.
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://docs.soldered.com/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
@@ -31,11 +36,11 @@ Access Arduino library documentation [here](https://SolderedElectronics.github.i
 
 The library is compatible with board & microcontroller families shown in green below:
 
-[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/compile_test.yml)
 
 ### About Soldered
 
-<img src="https://raw.githubusercontent.com/SolderedElectronics/Soldered-Generic-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
+<img src="https://raw.githubusercontent.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
@@ -46,7 +51,7 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 ### Original source
 
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
+This library is possible thanks to original [SparkFun u-blox Arduino GNSS Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library) library. Thank you, SparkFun.
 
 ### Open-source license
 
