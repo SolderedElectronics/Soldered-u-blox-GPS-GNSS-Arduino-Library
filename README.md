@@ -3,11 +3,11 @@
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/make_docs.yml)
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-u-blox-GPS-GNSS-Arduino-Library/actions/workflows/arduino_lint.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Product name](https://soldered.com/cdn/shop/files/333378_featured-photo_4f18cb.png) |
 | :------------------------------------------------------------------------------------: |
 |                      [GPS GNSS Breakout NEO-M9N-OOB Qwiic](https://www.solde.red/333378)                      |
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Product name](https://soldered.com/cdn/shop/files/izo_w_64f3ca52-e635-4459-b4a9-ca12bbf8cf9d.png) |
 | :------------------------------------------------------------------------------------: |
 |                      [GPS GNSS Breakout ZED-F9P-05B](https://www.solde.red/333381)     |
 
